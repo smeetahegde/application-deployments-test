@@ -1,0 +1,15 @@
+---
+global:
+  dc: dc4
+  cluster: c1
+  domain: west.us.dac.nokia.com
+  mysqlexternal: 192.168.3.115
+  mysql_username: dbmanager
+  mysql_password: White1966!(^^
+  mapserver:  http://135.104.54.120
+  #bgp_cluster_ip: "192.168.14.101"
+  proxy: "http://192.168.3.10:8089"
+
+import: 
+  - versions.yaml
+  - cluster-templates/dc4/common.yaml

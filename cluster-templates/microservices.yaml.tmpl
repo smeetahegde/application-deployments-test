@@ -1,0 +1,23 @@
+---
+context: ""
+global:
+  #registry: registry.dac.nokia.com 
+  #pullsecret: espoo-pullsecret
+  #dac_pullsecret: dacsecret
+  #proxy: ""
+  #ext_domain: 
+  #dc_region:
+  #TAG: 
+  #EXECUTION_ENVIRONMENT:
+  #NDACTAG: 
+  #ENVIRONMENT_NAME:
+  #CLUSTER_NAME:
+  captchamode: PRODUCTION
+  mapserver:  http://135.104.54.120 
+  #captchakey: 6LcQsGkUAAAAABl1DJu3oNPr2xUZyxrvH_l5DXJm
+import:
+  #- key.yaml
+include:
+    - name: nsc-gui
+    include:
+      - name: cassandra 
